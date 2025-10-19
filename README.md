@@ -1,4 +1,4 @@
-# SRR Logistics - Corporate Website
+# Sri Ragavendhira Roadways - Corporate Website
 
 A modern, professional website for **Sri Ragavendhira Roadways (SRR)** - a leading logistics and transport company in India.
 
@@ -132,7 +132,7 @@ This is a corporate website project. For updates or changes, please contact the 
 
 ## 📞 Contact
 
-**SRR Logistics**
+**Sri Ragavendhira Roadways**
 
 - Email: info@srrlogistics.com
 - Phone: +91 XXX XXX XXXX
@@ -140,4 +140,4 @@ This is a corporate website project. For updates or changes, please contact the 
 
 ---
 
-Built with ❤️ for SRR Logistics
+Built with ❤️ for Sri Ragavendhira Roadways

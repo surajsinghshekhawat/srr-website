@@ -114,7 +114,7 @@ const Home = () => {
           <div className="absolute inset-0 bg-gradient-to-br from-[#1a2f4a]/95 via-[#1a2f4a]/90 to-[#1a2f4a]/85 z-10" />
           <img
             src="/SRR_truck photo.jpg"
-            alt="SRR Logistics"
+            alt="Sri Ragavendhira Roadways"
             className="w-full h-full object-cover opacity-30"
           />
         </div>
