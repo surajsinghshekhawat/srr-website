@@ -39,7 +39,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <img src="/srr_logo.png" alt="SRR Logo" className="h-14 w-auto" />
-            <span className="font-heading text-2xl font-bold text-primary-navy hidden sm:block">
+            <span className="font-heading text-lg sm:text-xl lg:text-2xl font-bold text-primary-navy">
               Sri Ragavendhira Roadways
             </span>
           </Link>
