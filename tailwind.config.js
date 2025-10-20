@@ -5,8 +5,8 @@ export default {
     extend: {
       colors: {
         primary: {
-          navy: "#002B5B",
-          red: "#E63946",
+          navy: "#1a365d", // Darker navy for better contrast
+          red: "#f56565", // Softer red/orange-red
           gray: "#F5F5F5",
         },
       },
