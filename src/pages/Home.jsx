@@ -56,7 +56,7 @@ const Home = () => {
     {
       icon: Truck,
       title: "Container Transport",
-      description: "SXL, 20ft & 32ft MXL containerized cargo movement",
+      description: "32ft SXL, 20ft & 32ft MXL containerized cargo movement",
       link: "/services",
     },
     {

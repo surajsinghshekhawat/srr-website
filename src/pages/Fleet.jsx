@@ -58,7 +58,7 @@ const Fleet = () => {
   const fleetStats = [
     { label: "Owned Vehicles", value: "40+", icon: Truck },
     { label: "Attached Vehicles", value: "100+", icon: Truck },
-    { label: "Container Types", value: "SXL, 20ft & 32ft MXL", icon: Truck },
+    { label: "Container Types", value: "32ft SXL, 20ft & 32ft MXL", icon: Truck },
     { label: "Branch Offices", value: "5", icon: MapPin },
   ];
 

@@ -8,9 +8,9 @@ const Services = () => {
       icon: Truck,
       title: "Containerized Cargo Transport",
       description:
-        "Specialized transportation for SXL, 20ft & 32ft MXL containers with state-of-the-art handling equipment.",
+        "Specialized transportation for 32ft SXL, 20ft & 32ft MXL containers with state-of-the-art handling equipment.",
       features: [
-        "SXL, 20ft & 32ft MXL Container Transport",
+        "32ft SXL, 20ft & 32ft MXL Container Transport",
         "Dedicated Container Handling",
         "Secure Loading & Unloading",
       ],
