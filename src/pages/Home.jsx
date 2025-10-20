@@ -90,10 +90,6 @@ const Home = () => {
           <div className="flex flex-col md:flex-row justify-between items-center text-white text-sm">
             <div className="flex items-center gap-4 mb-2 md:mb-0">
               <div className="flex items-center gap-2">
-                <MapPinned className="h-4 w-4 text-primary-red" />
-                <span>Chennai, Tamil Nadu</span>
-              </div>
-              <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-primary-red" />
                 <span>srrchennai9@gmail.com</span>
               </div>
