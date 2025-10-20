@@ -4,9 +4,7 @@ import {
   Mail,
   Phone,
   MapPin,
-  Facebook,
-  Twitter,
-  Linkedin,
+  ExternalLink,
 } from "lucide-react";
 
 const Footer = () => {
@@ -28,17 +26,6 @@ const Footer = () => {
               Driving Reliability Across India for over 15 years. Your trusted
               partner in logistics and transport.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="hover:text-primary-red transition-colors">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="hover:text-primary-red transition-colors">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="hover:text-primary-red transition-colors">
-                <Linkedin className="h-5 w-5" />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -114,10 +101,33 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-          <p className="text-gray-300">
-            © {currentYear} Sri Ragavendhira Roadways. All rights reserved.
-          </p>
+        <div className="border-t border-gray-700 mt-8 pt-8">
+          <div className="text-center mb-4">
+            <p className="text-gray-300">
+              © {currentYear} Sri Ragavendhira Roadways. All rights reserved.
+            </p>
+          </div>
+          
+          {/* Developed By Section */}
+          <div className="border-t border-gray-700 pt-6 mt-6">
+            <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-4">
+              <span className="text-gray-400 text-sm">Developed with ❤️ by</span>
+              <a 
+                href="https://www.linkedin.com/in/suraj08/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="group flex items-center space-x-2 text-primary-red hover:text-white transition-all duration-300 transform hover:scale-105"
+              >
+                <span className="font-semibold text-sm">Suraj Singh Shekhawat</span>
+                <ExternalLink className="h-4 w-4 group-hover:rotate-12 transition-transform duration-300" />
+              </a>
+            </div>
+            <div className="text-center mt-2">
+              <span className="text-gray-500 text-xs">
+                Crafting digital experiences that drive business forward
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
